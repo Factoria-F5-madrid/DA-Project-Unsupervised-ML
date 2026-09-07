@@ -1,0 +1,32 @@
+Los datasets NO se versionan en este repositorio.
+
+Descarga aqui los dos ficheros antes de empezar:
+
+    data/mushrooms.csv
+    data/credit_card.csv
+
+--------------------------------------------------------------------
+COPIA DE FORMACION (la mas rapida, ya preparada)
+--------------------------------------------------------------------
+https://drive.google.com/drive/folders/1apSXjn6eQ5o9RdutbD4skSjvH6ytvR06?usp=sharing
+
+--------------------------------------------------------------------
+FUENTES ORIGINALES
+--------------------------------------------------------------------
+mushrooms.csv    8.124 filas x 23 columnas   366 KB
+                 UCI Machine Learning Repository, dataset 73
+                 https://archive.ics.uci.edu/dataset/73/mushroom
+                 Espejo en Kaggle:
+                 https://www.kaggle.com/datasets/uciml/mushroom-classification
+
+credit_card.csv  8.950 filas x 18 columnas   882 KB
+                 Credit Card Dataset for Clustering (Kaggle)
+                 https://www.kaggle.com/datasets/arjunbhasin2013/ccdata
+
+--------------------------------------------------------------------
+POR QUE NO ESTAN EN EL REPO
+--------------------------------------------------------------------
+Politica del bootcamp: los datos se enlazan, no se versionan. Git guarda
+cada version completa de un fichero binario, asi que un dataset que
+cambie tres veces ocupa tres veces. Ver DATASETS.md en el repositorio
+Planificador-refactor-DA.

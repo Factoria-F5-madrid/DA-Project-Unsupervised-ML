@@ -6,12 +6,27 @@ La novedad de esta versión es que el taller se divide en **dos notebooks comple
 
 ---
 
+## 📥 Antes de empezar: descarga los datos
+
+Los datasets **no están en el repositorio**. Descárgalos y colócalos en `data/`:
+
+| Fichero | Origen | Tamaño |
+|---|---|---|
+| `data/mushrooms.csv` | [UCI 73](https://archive.ics.uci.edu/dataset/73/mushroom) · [espejo en Kaggle](https://www.kaggle.com/datasets/uciml/mushroom-classification) | 366 KB |
+| `data/credit_card.csv` | [Credit Card Dataset for Clustering](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata) | 882 KB |
+
+**Atajo:** ambos ya preparados en la [carpeta de formación en Drive](https://drive.google.com/drive/folders/1apSXjn6eQ5o9RdutbD4skSjvH6ytvR06?usp=sharing).
+
+Ver también `data/LEEME.txt`.
+
+---
+
 ## 🗂️ Estructura del repositorio
 
 | Notebook | Dataset | Tipo de datos | ¿Hay etiqueta? |
 |---|---|---|---|
-| [`workshop-clustering-Mushrooms.ipynb`](workshop-clustering-Mushrooms.ipynb) | [`data/mushrooms.csv`](data/mushrooms.csv) | Categóricos | Sí — `class` (solo para **validar**) |
-| [`workshop-clustering-creditcard.ipynb`](workshop-clustering-creditcard.ipynb) | [`data/credit_card.csv`](data/credit_card.csv) | Numéricos | No — segmentación **de verdad** |
+| [`workshop-clustering-Mushrooms.ipynb`](workshop-clustering-Mushrooms.ipynb) | `data/mushrooms.csv` | Categóricos | Sí — `class` (solo para **validar**) |
+| [`workshop-clustering-creditcard.ipynb`](workshop-clustering-creditcard.ipynb) | `data/credit_card.csv` | Numéricos | No — segmentación **de verdad** |
 
 > Hay que entregar **los dos notebooks**. No son independientes: la Parte 2 da por sabido lo aprendido en la Parte 1.
 
@@ -19,7 +34,7 @@ La novedad de esta versión es que el taller se divide en **dos notebooks comple
 
 ## 🍄 Parte 1 — Setas (datos categóricos, *con* etiqueta)
 
-**Notebook:** [`workshop-clustering-Mushrooms.ipynb`](workshop-clustering-Mushrooms.ipynb) · **Dataset:** [`data/mushrooms.csv`](data/mushrooms.csv)
+**Notebook:** [`workshop-clustering-Mushrooms.ipynb`](workshop-clustering-Mushrooms.ipynb) · **Dataset:** `data/mushrooms.csv`
 🔗 [Mushroom Dataset (Kaggle)](https://www.kaggle.com/uciml/mushroom-classification) · [UCI](https://archive.ics.uci.edu/ml/datasets/Mushroom)
 
 Cada fila es un hongo descrito con **~22 variables, todas categóricas** (forma, color, olor, etc.). La variable `class` es **binaria**: `e` (comestible) / `p` (venenoso).
@@ -40,7 +55,7 @@ La clave pedagógica: **tenemos etiqueta, pero el clustering NO la usa**. La res
 
 ## 💳 Parte 2 — Tarjetas de crédito (datos numéricos, *sin* etiqueta)
 
-**Notebook:** [`workshop-clustering-creditcard.ipynb`](workshop-clustering-creditcard.ipynb) · **Dataset:** [`data/credit_card.csv`](data/credit_card.csv)
+**Notebook:** [`workshop-clustering-creditcard.ipynb`](workshop-clustering-creditcard.ipynb) · **Dataset:** `data/credit_card.csv`
 🔗 [Credit Card Dataset for Clustering (Kaggle)](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)
 
 Comportamiento de uso de ~9.000 titulares de tarjeta durante 6 meses, con **17 variables numéricas** (saldo, compras, adelantos de efectivo, límite, pagos…).
